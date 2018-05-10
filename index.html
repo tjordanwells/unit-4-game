@@ -9,18 +9,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script type="text/javascript" href="./assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 crystalCollector">
                 <h1 class="text-center">Crystal Collector!</h1>
             </div>
             <div class="col-sm-8"></div>
         </div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 rules">
                 <p>You will be given a random number at the start of the game.</p>
                 <br>
                 <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
@@ -36,10 +39,10 @@
             <div class="col-lg-6"></div>
         </div>
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <p class="randomNumber"></p>
             </div>
-            <div class="col-sm-1">
+            <div class="col-sm-2 score">
                 <p>Wins:
                     <span class="wins"></span>
                 </p>
@@ -48,25 +51,25 @@
                     <span class="losses"></span>
                 </p>
             </div>
-            <div class="col-sm-8"></div>
+            <div class="col-sm-6"></div>
         </div>
-        <div class="row">
+        <div class="row crystals">
             <div class="col-2">
-                <img src="./assets/images/aqua.jpg" alt="aqua crystal" class="img-thumbnail img-fluid">
+                <img src="./assets/images/aqua.jpg" alt="aqua crystal" class="img-thumbnail img-fluid w-75">
             </div>
             <div class="col-2">
-                <img src="./assets/images/yellow.jpg" alt="yellow crystal" class="img-thumbnail img-fluid">
+                <img src="./assets/images/yellow.jpg" alt="yellow crystal" class="img-thumbnail img-fluid w-75">
             </div>
             <div class="col-2">
-                <img src="./assets/images/blue.jpg" alt="blue crystal" class="img-thumbnail img-fluid">
+                <img src="./assets/images/blue.jpg" alt="blue crystal" class="img-thumbnail img-fluid w-75">
             </div>
             <div class="col-2">
-                <img src="./assets/images/gray.jpeg" alt="gray crystal" class="img-thumbnail img-fluid w-75">
+                <img src="./assets/images/gray.jpeg" alt="gray crystal" class="img-thumbnail img-fluid w-50">
             </div>
             <div class="col-4"></div>
         </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-4 total">
                 <p>Your total score is:</p>
             </div>
             <div class="col-xs-8"></div>

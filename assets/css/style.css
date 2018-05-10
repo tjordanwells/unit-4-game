@@ -1,0 +1,48 @@
+body {
+    background-image: url(../images/crystal_background.jpg);
+}
+
+.crystalCollector {
+    color: white;
+    background-color: lightcoral;
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.rules {
+    background-color: lightcyan;
+    color: lightslategray;
+    padding: 1rem;
+}
+
+.randomNumber {
+    background-color: lightseagreen;
+    color: darkslategray;
+    margin: 1rem 1rem 0rem 0rem;
+}
+
+.score {
+    background-color: lightcyan;
+    color: lightslategray;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.crystals {
+    margin-top: 1rem;
+}
+
+.total {
+    background-color: whitesmoke;
+    color: darkslategray;
+    padding-left: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+
+}
+
+.totalScore {
+    background-color: whitesmoke;
+    color: darkslategray;
+    font-weight: bolder;
+}
