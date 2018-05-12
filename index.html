@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <script type="text/javascript" href="./assets/javascript/game.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -55,16 +53,16 @@
         </div>
         <div class="row crystals">
             <div class="col-2">
-                <img src="./assets/images/aqua.jpg" alt="aqua crystal" class="img-thumbnail img-fluid w-75">
+                <img id="crystal" src="./assets/images/aqua.jpg" alt="aqua crystal" class="img-thumbnail img-fluid w-75">
             </div>
             <div class="col-2">
-                <img src="./assets/images/yellow.jpg" alt="yellow crystal" class="img-thumbnail img-fluid w-75">
+                <img id="crystal" src="./assets/images/yellow.jpg" alt="yellow crystal" class="img-thumbnail img-fluid w-75">
             </div>
             <div class="col-2">
-                <img src="./assets/images/blue.jpg" alt="blue crystal" class="img-thumbnail img-fluid w-75">
+                <img id="crystal" src="./assets/images/blue.jpg" alt="blue crystal" class="img-thumbnail img-fluid w-75">
             </div>
             <div class="col-2">
-                <img src="./assets/images/gray.jpeg" alt="gray crystal" class="img-thumbnail img-fluid w-50">
+                <img id="crystal" src="./assets/images/gray.jpeg" alt="gray crystal" class="img-thumbnail img-fluid w-50">
             </div>
             <div class="col-4"></div>
         </div>
@@ -76,10 +74,11 @@
         </div>
         <div class="row">
             <div class="col-sm-4">
-                <h1 class="totalScore"></h1>
+                <h1 class="totalScore h-100"></h1>
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
 
 </html>
